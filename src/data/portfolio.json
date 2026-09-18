@@ -1,0 +1,172 @@
+{
+  "profile": {
+    "name": "Nelson Peña",
+    "role": "Senior iOS Developer / Technical Lead",
+    "email": "vald3z32@gmail.com",
+    "github": "https://github.com/nelsonPena",
+    "url": "https://nelsonpena.github.io/",
+    "summary": {
+      "en": "I build and evolve native iOS applications, with a focus on maintainable architecture, reusable SDKs and reliable delivery. My experience spans fintech, banking and biometric identity, from hands-on engineering to technical leadership.",
+      "es": "Desarrollo y evoluciono aplicaciones nativas iOS con un enfoque en arquitectura mantenible, SDKs reutilizables y entregas confiables. Mi experiencia abarca fintech, banca e identidad biométrica, desde el desarrollo hasta el liderazgo técnico."
+    }
+  },
+  "experience": [
+    {
+      "company": "Shield Inc.",
+      "role": { "en": "iOS Technical Lead", "es": "Líder técnico iOS" },
+      "start": "2025-06", "end": null, "kind": "contract",
+      "description": {
+        "en": "Developing and evolving production iOS features with SwiftUI and TCA, with responsibility across architecture, integrations and release delivery.",
+        "es": "Desarrollo y evolución de funcionalidades iOS en producción con SwiftUI y TCA, con responsabilidades en arquitectura, integraciones y entregas."
+      },
+      "highlights": {
+        "en": ["Authentication and session management with Auth0; product analytics with Amplitude and universal links.", "Reusable SPM modules and SDK/API integrations; Fastlane workflows and QA and App Store release support."],
+        "es": ["Autenticación y gestión de sesión con Auth0; analítica de producto con Amplitude y enlaces universales.", "Módulos SPM reutilizables e integraciones de SDKs y APIs; flujos con Fastlane y apoyo a QA y publicaciones en App Store."]
+      },
+      "tags": ["SwiftUI", "TCA", "SPM", "Auth0", "Amplitude", "Fastlane"]
+    },
+    {
+      "company": "Become Digital",
+      "role": { "en": "Full Stack Mobile Developer", "es": "Desarrollador móvil full stack" },
+      "start": "2021-06", "end": "2025-05", "kind": "contract",
+      "description": {
+        "en": "Built mobile applications and a facial biometric authentication SDK for identity verification and KYC flows on iOS and Android.",
+        "es": "Desarrollo de aplicaciones móviles y de un SDK de autenticación biométrica facial para verificación de identidad y flujos KYC en iOS y Android."
+      },
+      "highlights": {
+        "en": ["Native SDK development with Swift and Kotlin, integrating facial authentication and liveness detection.", "Third-party integrations including AWS Amplify and Microblink OCR for document capture."],
+        "es": ["Desarrollo de SDKs nativos con Swift y Kotlin, integrando autenticación facial y detección de vida.", "Integraciones de terceros, como AWS Amplify y Microblink OCR para captura de documentos."]
+      },
+      "tags": ["Swift", "Kotlin", "SDK development", "Biometrics", "KYC"]
+    },
+    {
+      "company": "Grupo AOS",
+      "role": { "en": "Senior iOS Developer", "es": "Desarrollador iOS senior" },
+      "start": "2025-03", "end": "2025-05", "kind": "contract",
+      "description": {
+        "en": "Refactored dependency injection and dependency distribution in an existing iOS codebase.",
+        "es": "Refactorización de la inyección de dependencias y su distribución en una base de código iOS existente."
+      },
+      "highlights": {
+        "en": ["Worked with CocoaPods and custom Podspecs to organize reusable dependencies."],
+        "es": ["Uso de CocoaPods y Podspecs personalizados para organizar dependencias reutilizables."]
+      },
+      "tags": ["Swift", "Dependency injection", "CocoaPods"]
+    },
+    {
+      "company": "Grupo ASD",
+      "role": { "en": "Senior iOS Developer", "es": "Desarrollador iOS senior" },
+      "start": "2025-01", "end": "2025-03", "kind": "contract",
+      "description": {
+        "en": "Built SwiftUI and TCA features for identity verification and digital credential flows, helping define the technical architecture.",
+        "es": "Desarrollo de funcionalidades con SwiftUI y TCA para verificación de identidad y credenciales digitales, participando en la definición de la arquitectura técnica."
+      },
+      "highlights": {
+        "en": ["Integrated facial and fingerprint biometric SDKs into KYC and digital ID flows."],
+        "es": ["Integración de SDKs biométricos faciales y de huella en flujos KYC y de identificación digital."]
+      },
+      "tags": ["SwiftUI", "TCA", "Biometrics", "Architecture"]
+    },
+    {
+      "company": "Stori",
+      "role": { "en": "Senior iOS Developer", "es": "Desarrollador iOS senior" },
+      "start": "2024-11", "end": "2025-01", "kind": "contract",
+      "description": {
+        "en": "Developed fintech features for growth, analytics and campaigns in a VIPER-based iOS application.",
+        "es": "Desarrollo de funcionalidades fintech para crecimiento, analítica y campañas en una aplicación iOS con arquitectura VIPER."
+      },
+      "highlights": {
+        "en": ["Universal links, React Native module integrations and Objective-C development.", "Campaign and product measurement using AppsFlyer and Apptimize."],
+        "es": ["Enlaces universales, integración de módulos React Native y desarrollo en Objective-C.", "Medición de campañas y producto con AppsFlyer y Apptimize."]
+      },
+      "tags": ["VIPER", "Objective-C", "React Native", "Fintech"]
+    },
+    {
+      "company": "VASS Latam",
+      "role": { "en": "Senior iOS Developer", "es": "Desarrollador iOS senior" },
+      "start": "2024-04", "end": "2024-11", "kind": "fullTime",
+      "description": {
+        "en": "Developed a US banking application with VIPER and led the team's technical iOS work.",
+        "es": "Desarrollo de una aplicación bancaria para Estados Unidos con VIPER y liderazgo técnico del equipo iOS."
+      },
+      "highlights": {
+        "en": ["Integrated Plaid for financial connectivity and bank-account flows.", "Production diagnostics with Firebase Crashlytics and Dynatrace; electronic-signature integrations."],
+        "es": ["Integración de Plaid para conectividad financiera y flujos de cuentas bancarias.", "Diagnóstico en producción con Firebase Crashlytics y Dynatrace; integraciones de firma electrónica."]
+      },
+      "tags": ["VIPER", "Plaid", "Firebase", "Banking", "Technical leadership"]
+    },
+    {
+      "company": "Globant",
+      "role": { "en": "Semi-Senior iOS Developer", "es": "Desarrollador iOS semisenior" },
+      "start": "2022-07", "end": "2024-04", "kind": "fullTime",
+      "description": {
+        "en": "Developed modules and redesigned interfaces for a digital wallet, serving as a technical reference within the team.",
+        "es": "Desarrollo de módulos y rediseño de interfaces para una billetera digital, como referente técnico dentro del equipo."
+      },
+      "highlights": {
+        "en": ["VIPER feature development and integration with an interbank transfer platform."],
+        "es": ["Desarrollo de funcionalidades con VIPER e integración con una plataforma de transferencias interbancarias."]
+      },
+      "tags": ["Swift", "UIKit", "VIPER", "Digital wallets"]
+    },
+    {
+      "company": "IDEMIA",
+      "role": { "en": "Mobile Prototyping & Application Developer", "es": "Desarrollador de prototipos y aplicaciones móviles" },
+      "start": "2018-10", "end": "2022-07", "kind": "fullTime",
+      "description": {
+        "en": "Developed iOS and Android applications for biometric identity and secure document handling across Latin America.",
+        "es": "Desarrollo de aplicaciones iOS y Android para identidad biométrica y gestión segura de documentos en América Latina."
+      },
+      "highlights": {
+        "en": ["Facial-recognition SDK integrations and mobile prototypes for public-sector projects."],
+        "es": ["Integración de SDKs de reconocimiento facial y prototipos móviles para proyectos del sector público."]
+      },
+      "tags": ["iOS", "Android / Java", "Biometrics", "Digital identity"]
+    }
+  ],
+  "work": [
+    {
+      "id": "shield", "company": "Shield Inc.", "category": { "en": "Native iOS · Technical leadership", "es": "iOS nativo · Liderazgo técnico" },
+      "title": { "en": "An iOS platform, built to evolve.", "es": "Una plataforma iOS que puede evolucionar." },
+      "description": { "en": "From state-driven features to authentication and release delivery: hands-on development of a production SwiftUI application.", "es": "Desde funcionalidades basadas en estado hasta autenticación y entregas: desarrollo de una aplicación SwiftUI en producción." },
+      "contributions": {
+        "en": ["SwiftUI features with predictable state management through TCA.", "Auth0 sessions, Amplitude analytics and modular SDK integrations.", "SPM modules, Fastlane automation and release support."],
+        "es": ["Funcionalidades SwiftUI con gestión de estado predecible mediante TCA.", "Sesiones Auth0, analítica Amplitude e integraciones modulares de SDKs.", "Módulos SPM, automatización con Fastlane y apoyo a publicaciones."]
+      },
+      "tags": ["SwiftUI", "TCA", "Auth0", "SPM"]
+    },
+    {
+      "id": "identity", "company": "Become Digital", "category": { "en": "Digital identity · SDK engineering", "es": "Identidad digital · Desarrollo de SDKs" },
+      "title": { "en": "Identity verification, made reusable.", "es": "Verificación de identidad reutilizable." },
+      "description": { "en": "Native biometric SDK development that brings facial authentication and document capture into mobile KYC flows.", "es": "Desarrollo de SDKs biométricos nativos que integran autenticación facial y captura de documentos en flujos móviles KYC." },
+      "contributions": {
+        "en": ["Native integration surfaces for Swift and Kotlin applications.", "Facial authentication and third-party liveness detection integrations.", "Microblink OCR and AWS Amplify integrations."],
+        "es": ["Integraciones nativas para aplicaciones Swift y Kotlin.", "Autenticación facial e integración de detección de vida de terceros.", "Integraciones con Microblink OCR y AWS Amplify."]
+      },
+      "tags": ["Swift", "Kotlin", "Biometrics", "SDKs"]
+    },
+    {
+      "id": "banking", "company": "VASS Latam · Globant", "category": { "en": "Fintech · Banking & digital wallets", "es": "Fintech · Banca y billeteras digitales" },
+      "title": { "en": "Mobile banking, with care at every layer.", "es": "Banca móvil, con atención en cada capa." },
+      "description": { "en": "iOS engineering across banking and wallet applications, connecting product features with financial services and production diagnostics.", "es": "Desarrollo iOS en aplicaciones bancarias y billeteras, conectando funcionalidades de producto con servicios financieros y diagnóstico en producción." },
+      "contributions": {
+        "en": ["VIPER feature development and technical leadership at VASS.", "Plaid financial connectivity and Firebase Crashlytics integrations at VASS.", "Wallet interface redesign and interbank transfer integrations at Globant."],
+        "es": ["Desarrollo de funcionalidades VIPER y liderazgo técnico en VASS.", "Conectividad financiera con Plaid e integración de Firebase Crashlytics en VASS.", "Rediseño de interfaces de billetera e integraciones de transferencias interbancarias en Globant."]
+      },
+      "tags": ["VIPER", "Plaid", "Firebase", "UIKit"]
+    }
+  ],
+  "skillGroups": [
+    { "title": { "en": "Native iOS", "es": "iOS nativo" }, "items": ["Swift", "SwiftUI", "UIKit", "Objective-C", "Combine", "async/await"] },
+    { "title": { "en": "Architecture", "es": "Arquitectura" }, "items": ["TCA", "VIPER", "MVVM", "Clean Architecture", "SOLID", "Dependency injection"] },
+    { "title": { "en": "SDKs & integrations", "es": "SDKs e integraciones" }, "items": ["SDK development", "SPM", "REST APIs", "Firebase", "Auth0", "Amplitude", "Plaid", "Biometrics / KYC"] },
+    { "title": { "en": "Quality & delivery", "es": "Calidad y entregas" }, "items": ["Fastlane", "CI/CD", "XCTest", "XCUITest", "Instruments", "Code review", "Technical mentoring"] },
+    { "title": { "en": "Complementary mobile experience", "es": "Experiencia móvil complementaria" }, "items": ["Kotlin / Android", "Flutter / Dart", "React Native"] }
+  ],
+  "education": [
+    { "institution": "Fundación Universitaria del Área Andina", "program": { "en": "Systems Engineering", "es": "Ingeniería de Sistemas" } },
+    { "institution": "Universidad Pedagógica y Tecnológica de Colombia", "program": { "en": "Industrial Design", "es": "Diseño Industrial" } },
+    { "institution": "SENA", "program": { "en": "Specialization in Mobile Application Development", "es": "Especialización en Desarrollo de Aplicaciones Móviles" } },
+    { "institution": "SENA", "program": { "en": "Technologist in Information Systems Analysis and Development", "es": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información" } }
+  ]
+}
