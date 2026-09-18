@@ -13,17 +13,55 @@
   "experience": [
     {
       "company": "Shield Inc.",
-      "role": { "en": "iOS Technical Lead", "es": "Líder técnico iOS" },
-      "start": "2025-06", "end": null, "kind": "contract",
+      "role": {
+        "en": "iOS Technical Lead",
+        "es": "Líder técnico iOS"
+      },
+      "start": "2025-06",
+      "end": null,
+      "kind": "contract",
       "description": {
-        "en": "Developing and evolving production iOS features with SwiftUI and TCA, with responsibility across architecture, integrations and release delivery.",
-        "es": "Desarrollo y evolución de funcionalidades iOS en producción con SwiftUI y TCA, con responsabilidades en arquitectura, integraciones y entregas."
+        "en": "Developing and evolving a modular native iOS application with SwiftUI, Combine, MVVM and coordinators, with responsibility across architecture, SDK integrations and release delivery.",
+        "es": "Desarrollo y evolución de una aplicación iOS nativa y modular con SwiftUI, Combine, MVVM y coordinadores, con responsabilidades en arquitectura, integración de SDKs y entregas."
       },
       "highlights": {
-        "en": ["Authentication and session management with Auth0; product analytics with Amplitude and universal links.", "Reusable SPM modules and SDK/API integrations; Fastlane workflows and QA and App Store release support."],
-        "es": ["Autenticación y gestión de sesión con Auth0; analítica de producto con Amplitude y enlaces universales.", "Módulos SPM reutilizables e integraciones de SDKs y APIs; flujos con Fastlane y apoyo a QA y publicaciones en App Store."]
+        "en": [
+          "Auth0 authentication and credential lifecycle; Amplitude event analytics; Plaid, Stripe, Persona, CapitalOS and Pylon SDK integrations; Bridge/Cybrid client flows via backend APIs.",
+          "SPM modules, Factory dependency injection and Pilot networking; biometric authentication, Keychain, push notifications and universal links.",
+          "Reusable UI components, Kingfisher images and Lottie animations; XCTest and mocks; Fastlane and GitHub Actions for builds, signing and distribution."
+        ],
+        "es": [
+          "Autenticación y ciclo de credenciales con Auth0; analítica de eventos con Amplitude; integración de SDKs de Plaid, Stripe, Persona, CapitalOS y Pylon; flujos Bridge/Cybrid mediante APIs del backend.",
+          "Módulos SPM, inyección de dependencias con Factory y redes con Pilot; autenticación biométrica, Keychain, notificaciones push y enlaces universales.",
+          "Componentes UI reutilizables, imágenes con Kingfisher y animaciones Lottie; XCTest y mocks; Fastlane y GitHub Actions para compilación, firma y distribución."
+        ]
       },
-      "tags": ["SwiftUI", "TCA", "SPM", "Auth0", "Amplitude", "Fastlane"]
+      "tags": [
+        "SwiftUI",
+        "MVVM",
+        "Combine",
+        "SPM",
+        "Factory",
+        "Auth0",
+        "Amplitude",
+        "Fastlane"
+      ],
+      "cvDescription": {
+        "en": "Native iOS development and technical leadership with SwiftUI, Combine, MVVM and modular SPM architecture.",
+        "es": "Desarrollo iOS nativo y liderazgo técnico con SwiftUI, Combine, MVVM y arquitectura modular SPM."
+      },
+      "cvHighlights": {
+        "en": [
+          "Auth0 login/MFA and session refresh; Amplitude analytics; Plaid, Stripe, Persona, CapitalOS and Pylon SDKs.",
+          "Factory and Pilot; biometrics, Keychain, APNs and universal links.",
+          "XCTest and mocks; Fastlane/GitHub Actions for signing and distribution."
+        ],
+        "es": [
+          "Auth0 con MFA y renovación de sesión; Amplitude; SDKs de Plaid, Stripe, Persona, CapitalOS y Pylon.",
+          "Factory y Pilot; biometría, Keychain, APNs y enlaces universales.",
+          "XCTest y mocks; Fastlane/GitHub Actions para firma y distribución."
+        ]
+      }
     },
     {
       "company": "Become Digital",
@@ -126,15 +164,47 @@
   ],
   "work": [
     {
-      "id": "shield", "company": "Shield Inc.", "category": { "en": "Native iOS · Technical leadership", "es": "iOS nativo · Liderazgo técnico" },
-      "title": { "en": "Shield USDT", "es": "Shield USDT" },
-      "appStoreUrl": "https://apps.apple.com/co/app/shield-usdt/id6751006302",
-      "description": { "en": "I developed 100% of the Shield USDT iOS app, from SwiftUI features and TCA architecture to authentication, integrations and App Store delivery.", "es": "Desarrollé el 100 % de la app iOS Shield USDT, desde funcionalidades SwiftUI y arquitectura TCA hasta autenticación, integraciones y publicación en App Store." },
-      "contributions": {
-        "en": ["SwiftUI features with predictable state management through TCA.", "Auth0 sessions, Amplitude analytics and modular SDK integrations.", "SPM modules, Fastlane automation and release support."],
-        "es": ["Funcionalidades SwiftUI con gestión de estado predecible mediante TCA.", "Sesiones Auth0, analítica Amplitude e integraciones modulares de SDKs.", "Módulos SPM, automatización con Fastlane y apoyo a publicaciones."]
+      "id": "shield",
+      "company": "Shield Inc.",
+      "category": {
+        "en": "Native iOS · Technical leadership",
+        "es": "iOS nativo · Liderazgo técnico"
       },
-      "tags": ["SwiftUI", "TCA", "Auth0", "SPM"]
+      "title": {
+        "en": "Shield USDT",
+        "es": "Shield USDT"
+      },
+      "appStoreUrl": "https://apps.apple.com/co/app/shield-usdt/id6751006302",
+      "description": {
+        "en": "I developed 100% of the Shield USDT iOS app, from modular SwiftUI and MVVM architecture to authentication, financial SDK integrations and App Store delivery.",
+        "es": "Desarrollé el 100 % de la app iOS Shield USDT, desde arquitectura modular con SwiftUI y MVVM hasta autenticación, integración de SDKs financieros y publicación en App Store."
+      },
+      "contributions": {
+        "en": [
+          "Modular SPM architecture with MVVM, Combine, coordinators, Factory dependency injection and Pilot API adapters.",
+          "Auth0 Universal Login, Google sign-in, MFA and credential refresh; Amplitude events, user identity and screen/session tracking.",
+          "Plaid bank linking, Stripe PaymentSheet, Persona KYC, CapitalOS card SDK and Pylon support chat integrations; Bridge and Cybrid client flows via backend REST APIs.",
+          "Biometric authentication, Keychain storage, APNs notifications and universal-link routing.",
+          "Kingfisher images, Lottie animations, Swift Charts, QR scanning/generation, document handling and localized UI.",
+          "XCTest, mocks, Fastlane signing/build workflows and GitHub Actions for release delivery."
+        ],
+        "es": [
+          "Arquitectura modular SPM con MVVM, Combine, coordinadores, inyección de dependencias con Factory y adaptadores API con Pilot.",
+          "Auth0 Universal Login, acceso con Google, MFA y renovación de credenciales; eventos, identidad de usuario y seguimiento de pantallas/sesiones con Amplitude.",
+          "Integración de Plaid para vincular bancos, Stripe PaymentSheet, Persona para KYC, SDK de tarjetas CapitalOS y chat de soporte Pylon; flujos Bridge y Cybrid mediante APIs REST del backend.",
+          "Autenticación biométrica, almacenamiento Keychain, notificaciones APNs y navegación mediante enlaces universales.",
+          "Imágenes con Kingfisher, animaciones Lottie, Swift Charts, lectura/generación de QR, manejo de documentos e interfaces localizadas.",
+          "XCTest, mocks, flujos de firma/compilación con Fastlane y GitHub Actions para las entregas."
+        ]
+      },
+      "tags": [
+        "SwiftUI",
+        "MVVM",
+        "Factory",
+        "Auth0",
+        "Amplitude",
+        "SPM"
+      ]
     },
     {
       "id": "identity", "company": "Become Digital", "category": { "en": "Digital identity · SDK engineering", "es": "Identidad digital · Desarrollo de SDKs" },
@@ -158,16 +228,38 @@
     }
   ],
   "skillGroups": [
-    { "title": { "en": "Native iOS", "es": "iOS nativo" }, "items": ["Swift", "SwiftUI", "UIKit", "Objective-C", "Combine", "async/await"] },
-    { "title": { "en": "Architecture", "es": "Arquitectura" }, "items": ["TCA", "VIPER", "MVVM", "Clean Architecture", "SOLID", "Dependency injection"] },
-    { "title": { "en": "SDKs & integrations", "es": "SDKs e integraciones" }, "items": ["SDK development", "SPM", "REST APIs", "Firebase", "Auth0", "Amplitude", "Plaid", "Biometrics / KYC"] },
-    { "title": { "en": "Quality & delivery", "es": "Calidad y entregas" }, "items": ["Fastlane", "CI/CD", "XCTest", "XCUITest", "Instruments", "Code review", "Technical mentoring"] },
-    { "title": { "en": "Complementary mobile experience", "es": "Experiencia móvil complementaria" }, "items": ["Kotlin / Android", "Flutter / Dart", "React Native"] }
+    {"title": {"en": "Native iOS", "es": "iOS nativo"}, "items": ["Swift", "SwiftUI", "UIKit", "Objective-C", "Combine", "async/await", "MainActor", "Swift Charts"]},
+    {"title": {"en": "Architecture & modularity", "es": "Arquitectura y modularidad"}, "items": ["MVVM", "Coordinators", "TCA", "VIPER", "Clean Architecture", "SOLID", "Factory", "Dependency injection", "Protocol-oriented design", "SPM"]},
+    {"title": {"en": "Networking & SDK engineering", "es": "Redes y desarrollo de SDKs"}, "items": ["SDK development", "REST APIs", "Pilot", "URLSession", "Codable", "SDK adapters", "Async callback bridging", "Error mapping", "Virtual accounts / payment rails"]},
+    {"title": {"en": "Third-party platforms", "es": "Plataformas de terceros"}, "items": ["Auth0", "Amplitude", "Plaid / LinkKit", "Stripe / PaymentSheet", "Persona / KYC", "CapitalOS", "Pylon", "Bridge / backend API flows", "Cybrid / backend API flows", "Firebase", "AWS Amplify", "Microblink OCR", "AppsFlyer", "Apptimize"]},
+    {"title": {"en": "Security & platform capabilities", "es": "Seguridad y capacidades de plataforma"}, "items": ["LocalAuthentication", "Keychain / Security", "AuthenticationServices", "Session management", "UserDefaults", "APNs / UserNotifications", "Universal links", "WebKit", "AVFoundation", "CoreImage", "PhotosUI", "UniformTypeIdentifiers", "CoreTransferable", "StoreKit / review prompts"]},
+    {"title": {"en": "UI libraries & localization", "es": "Librerías UI y localización"}, "items": ["Kingfisher", "Lottie", "SwipeActions", "Toasty", "Reusable UI components", "Skeleton loading states", "String Catalogs", "Localization"]},
+    {"title": {"en": "Quality & delivery", "es": "Calidad y entregas"}, "items": ["XCTest", "XCUITest", "Mocks / test doubles", "Quick / Nimble (package dependencies)", "Fastlane", "GitHub Actions", "CI/CD", "Code signing / match", "App Store Connect", "TestFlight", "Xcode configurations", "Ruby / Bundler", "Instruments", "Code review", "Technical mentoring"]},
+    {"title": {"en": "Complementary mobile experience", "es": "Experiencia móvil complementaria"}, "items": ["Kotlin / Android", "Flutter / Dart", "React Native"], "complementary": true}
   ],
   "education": [
     { "institution": "Fundación Universitaria del Área Andina", "program": { "en": "Systems Engineering", "es": "Ingeniería de Sistemas" } },
     { "institution": "SENA", "program": { "en": "Specialization in Mobile Application Development", "es": "Especialización en Desarrollo de Aplicaciones Móviles" } },
     { "institution": "Universidad Pedagógica y Tecnológica de Colombia", "program": { "en": "Industrial Design", "es": "Diseño Industrial" } },
     { "institution": "SENA", "program": { "en": "Technologist in Information Systems Analysis and Development", "es": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información" } }
+  ],
+  "cvSkillGroups": [
+    {"title": {"en": "Native iOS", "es": "iOS nativo"}, "items": ["Swift", "SwiftUI", "UIKit", "Objective-C", "Combine", "async/await"]},
+    {"title": {"en": "Architecture", "es": "Arquitectura"}, "items": ["MVVM", "Coordinators", "Clean Architecture", "TCA", "VIPER", "Factory", "SPM"]},
+    {"title": {"en": "Platforms & SDKs", "es": "Plataformas y SDKs"}, "items": ["Auth0", "Amplitude", "Plaid", "Stripe", "Persona", "CapitalOS", "Pylon", "Bridge / Cybrid API flows", "Firebase", "SDK development"]},
+    {"title": {"en": "Engineering tools", "es": "Herramientas de desarrollo"}, "items": ["Pilot", "REST APIs", "Kingfisher", "Lottie", "Keychain", "LocalAuthentication", "APNs"]},
+    {"title": {"en": "Quality & delivery", "es": "Calidad y entregas"}, "items": ["XCTest", "Mocks", "Fastlane", "GitHub Actions", "Code signing", "TestFlight"]},
+    {"title": {"en": "Complementary experience", "es": "Experiencia complementaria"}, "items": ["Kotlin / Android", "Flutter / Dart", "React Native"]}
+  ],
+  "platformIntegrations": [
+    {"id": "auth0", "name": "Auth0", "description": {"en": "Universal Login, Google sign-in, MFA, credential refresh and biometric-protected sessions.", "es": "Universal Login, acceso con Google, MFA, renovación de credenciales y sesiones protegidas con biometría."}},
+    {"id": "amplitude", "name": "Amplitude", "description": {"en": "Event instrumentation, user identification and screen/session tracking.", "es": "Instrumentación de eventos, identificación de usuarios y seguimiento de pantallas y sesiones."}},
+    {"id": "plaid", "name": "Plaid", "description": {"en": "Native bank-account linking with LinkKit and result, cancellation and error handling.", "es": "Vinculación nativa de cuentas bancarias con LinkKit y manejo de resultados, cancelaciones y errores."}},
+    {"id": "stripe", "name": "Stripe", "description": {"en": "Native PaymentSheet integration and payment-result handling.", "es": "Integración nativa de PaymentSheet y manejo de resultados de pago."}},
+    {"id": "persona", "name": "Persona", "description": {"en": "In-app KYC inquiries, UIKit–SwiftUI presentation and verification callbacks.", "es": "Flujos KYC dentro de la app, presentación UIKit–SwiftUI y callbacks de verificación."}},
+    {"id": "capitalos", "name": "CapitalOS", "description": {"en": "Native card-management SDK integration, authentication and delegate events.", "es": "Integración del SDK nativo de gestión de tarjetas, autenticación y eventos mediante delegados."}},
+    {"id": "pylon", "name": "Pylon", "description": {"en": "Embedded support chat, user identity, conversation presentation and unread-status events.", "es": "Chat de soporte integrado, identidad de usuario, presentación de conversaciones y eventos de mensajes sin leer."}},
+    {"id": "bridge", "name": "Bridge", "description": {"en": "Virtual-account and payment-rail client flows through backend REST APIs.", "es": "Flujos móviles de cuentas virtuales y redes de pago mediante APIs REST del backend."}},
+    {"id": "cybrid", "name": "Cybrid", "description": {"en": "Virtual-account, deposit and bank-transfer client flows through backend REST APIs.", "es": "Flujos móviles de cuentas virtuales, depósitos y transferencias bancarias mediante APIs REST del backend."}}
   ]
 }

@@ -24,7 +24,7 @@ The build checks TypeScript, bundles the application into `dist/`, and pre-rende
 
 ## Content and languages
 
-- `src/data/portfolio.json`: profile, public contact email, experience, work summaries, skills and CV education.
+- `src/data/portfolio.json`: profile, public contact email, experience, work summaries, skills, platform integration summaries, concise CV skills and education.
 - `src/i18n/copy.ts`: English and Spanish interface text.
 - `src/components/`: Hero, About, Experience, Selected Work, Skills, Contact and navigation.
 - `src/styles.css`: responsive layout, focus styles, reduced-motion support and print styles.
@@ -79,3 +79,9 @@ python3 scripts/generate_cv.py
 ```
 
 PDF regeneration is separate from the website build. Review the rendered PDFs after changing content. Both PDFs are committed static assets, so CI needs only Node.js.
+
+## Technology content review
+
+Shield technology descriptions were checked against application imports, SDK integration implementations, SPM manifests and build/release tooling. The reviewed application uses SwiftUI, Combine, MVVM, coordinators, Factory and Pilot. TCA remains part of the broader profile and prior experience; it is not attributed to this Shield implementation. Quick and Nimble are listed as configured package dependencies, while the reviewed test implementations use XCTest. Transitive SDK dependencies and vendor sample applications are not treated as personal integration experience.
+
+The Skills section includes concise explanations for Auth0, Amplitude, Plaid, Stripe, Persona, CapitalOS and Pylon, plus Bridge and Cybrid client flows through backend APIs. Public content contains general capabilities only, without private source files, repository links, endpoints, configuration values, event payloads or credentials. Other platform experience comes from the existing professional history. `cvSkillGroups` keeps the downloadable CVs concise; the website shows the complete skills list.

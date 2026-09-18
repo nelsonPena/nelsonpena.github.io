@@ -61,7 +61,7 @@ def make_cv(lang):
     story += [p(f"{DATA['profile']['email']}  |  github.com/nelsonPena", 'meta'), p('nelsonpena.github.io', 'meta')]
     story += [p(labels['profile'], 'section'), p(DATA['profile']['summary'][lang])]
     story += [p(labels['skills'], 'section')]
-    for group in DATA['skillGroups']:
+    for group in DATA.get('cvSkillGroups', DATA['skillGroups']):
         # Bold headings distinguish native specialization from complementary experience.
         value = f"<b>{text(group['title'][lang])}:</b> {text(' / '.join(group['items']))}"
         story.append(Paragraph(value, styles['body']))
@@ -72,8 +72,8 @@ def make_cv(lang):
             story += [PageBreak(), p(DATA['profile']['name'], 'name'), p(labels['continued'], 'section')]
         heading = Table([[p(job['company'], 'company'), p(dates(job, lang), 'date')]], colWidths=[WIDTH * .6, WIDTH * .4])
         heading.setStyle(TableStyle([('VALIGN', (0, 0), (-1, -1), 'TOP'), ('LEFTPADDING', (0, 0), (-1, -1), 0), ('RIGHTPADDING', (0, 0), (-1, -1), 0), ('TOPPADDING', (0, 0), (-1, -1), 5), ('BOTTOMPADDING', (0, 0), (-1, -1), 0), ('LINEABOVE', (0, 0), (-1, -1), .5, LINE)]))
-        block = [heading, p(f"{job['role'][lang]} | {labels[job['kind']]}", 'jobrole'), p(job['description'][lang])]
-        block += [p('- ' + value, 'bullet') for value in job['highlights'][lang]]
+        block = [heading, p(f"{job['role'][lang]} | {labels[job['kind']]}", 'jobrole'), p(job.get('cvDescription', job['description'])[lang])]
+        block += [p('- ' + value, 'bullet') for value in job.get('cvHighlights', job['highlights'])[lang]]
         block += [Spacer(1, 8)]
         story.append(KeepTogether(block))
 
