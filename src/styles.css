@@ -123,6 +123,8 @@ main:focus { outline: none; }
 .work-card h3 { font-size: 1.75rem; font-weight: 600; letter-spacing: -.035em; line-height: 1.15; margin-top: 13px; }
 .work-company { font-size: .9375rem; font-weight: 500; margin-top: 18px; }
 .work-description { color: var(--muted); margin-top: 16px; margin-bottom: 26px; font-size: .9375rem; }
+.work-link { display: inline-flex; align-items: center; align-self: flex-start; gap: 10px; min-height: 44px; margin-bottom: 20px; color: var(--blue); font-size: .9375rem; }
+.work-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .work-card .tags { margin-top: auto; padding-bottom: 26px; }
 .work-card details { border-top: 1px solid #3b3b3e; }
 .work-card summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; list-style: none; min-height: 52px; padding: 13px 0; font-size: .9375rem; font-weight: 400; }

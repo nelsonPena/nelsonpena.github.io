@@ -127,8 +127,9 @@
   "work": [
     {
       "id": "shield", "company": "Shield Inc.", "category": { "en": "Native iOS · Technical leadership", "es": "iOS nativo · Liderazgo técnico" },
-      "title": { "en": "An iOS platform, built to evolve.", "es": "Una plataforma iOS que puede evolucionar." },
-      "description": { "en": "From state-driven features to authentication and release delivery: hands-on development of a production SwiftUI application.", "es": "Desde funcionalidades basadas en estado hasta autenticación y entregas: desarrollo de una aplicación SwiftUI en producción." },
+      "title": { "en": "Shield USDT", "es": "Shield USDT" },
+      "appStoreUrl": "https://apps.apple.com/co/app/shield-usdt/id6751006302",
+      "description": { "en": "I developed 100% of the Shield USDT iOS app, from SwiftUI features and TCA architecture to authentication, integrations and App Store delivery.", "es": "Desarrollé el 100 % de la app iOS Shield USDT, desde funcionalidades SwiftUI y arquitectura TCA hasta autenticación, integraciones y publicación en App Store." },
       "contributions": {
         "en": ["SwiftUI features with predictable state management through TCA.", "Auth0 sessions, Amplitude analytics and modular SDK integrations.", "SPM modules, Fastlane automation and release support."],
         "es": ["Funcionalidades SwiftUI con gestión de estado predecible mediante TCA.", "Sesiones Auth0, analítica Amplitude e integraciones modulares de SDKs.", "Módulos SPM, automatización con Fastlane y apoyo a publicaciones."]
