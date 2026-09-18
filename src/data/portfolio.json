@@ -6,8 +6,8 @@
     "github": "https://github.com/nelsonPena",
     "url": "https://nelsonpena.github.io/",
     "summary": {
-      "en": "I build and evolve native iOS applications, with a focus on maintainable architecture, reusable SDKs and reliable delivery. My experience spans fintech, banking and biometric identity, from hands-on engineering to technical leadership.",
-      "es": "Desarrollo y evoluciono aplicaciones nativas iOS con un enfoque en arquitectura mantenible, SDKs reutilizables y entregas confiables. Mi experiencia abarca fintech, banca e identidad biométrica, desde el desarrollo hasta el liderazgo técnico."
+      "en": "I’m a Systems Engineer with a specialization in Mobile Application Development. I build and evolve native iOS applications, with a focus on maintainable architecture, reusable SDKs and reliable delivery. My experience spans fintech, banking and biometric identity, from hands-on engineering to technical leadership.",
+      "es": "Soy ingeniero de sistemas con especialización en desarrollo de aplicaciones móviles. Desarrollo y evoluciono aplicaciones nativas iOS con un enfoque en arquitectura mantenible, SDKs reutilizables y entregas confiables. Mi experiencia abarca fintech, banca e identidad biométrica, desde el desarrollo hasta el liderazgo técnico."
     }
   },
   "experience": [
@@ -165,8 +165,8 @@
   ],
   "education": [
     { "institution": "Fundación Universitaria del Área Andina", "program": { "en": "Systems Engineering", "es": "Ingeniería de Sistemas" } },
-    { "institution": "Universidad Pedagógica y Tecnológica de Colombia", "program": { "en": "Industrial Design", "es": "Diseño Industrial" } },
     { "institution": "SENA", "program": { "en": "Specialization in Mobile Application Development", "es": "Especialización en Desarrollo de Aplicaciones Móviles" } },
+    { "institution": "Universidad Pedagógica y Tecnológica de Colombia", "program": { "en": "Industrial Design", "es": "Diseño Industrial" } },
     { "institution": "SENA", "program": { "en": "Technologist in Information Systems Analysis and Development", "es": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información" } }
   ]
 }

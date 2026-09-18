@@ -90,6 +90,11 @@ main:focus { outline: none; }
 .principles > div { border-top: 1px solid var(--line); padding-top: 20px; }
 .principles h3 { font-size: 1rem; font-weight: 600; }
 .principles p { margin-top: 9px; font-size: .9375rem; color: var(--muted); line-height: 1.6; }
+.education { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.2fr; gap: 90px; border-top: 1px solid var(--line); padding-top: 36px; }
+.education h3 { font-size: 1.5rem; font-weight: 600; letter-spacing: -.025em; line-height: 1.3; }
+.education-list { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin: 0; }
+.education-list dt { font-size: 1rem; font-weight: 500; line-height: 1.5; }
+.education-list dd { margin: 8px 0 0; color: var(--muted); font-size: .9375rem; line-height: 1.6; }
 .experience-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-bottom: 55px; }
 .experience-note { max-width: 310px; color: var(--muted); font-size: .9375rem; }
 .experience-list { list-style: none; margin: 0; }
@@ -154,6 +159,7 @@ details[open] .details-plus { transform: rotate(45deg); }
   .brand-name { display: none; }
   .navigation { gap: 20px; }
   .about { gap: 60px; }
+  .education { gap: 60px; }
   .experience-row { gap: 50px; }
   .skills { gap: 50px; }
   .contact-inner { gap: 60px; }
@@ -174,6 +180,7 @@ details[open] .details-plus { transform: rotate(45deg); }
   .focus-strip ul { flex-wrap: wrap; justify-content: flex-start; gap: 8px 24px; }
   .section { padding-block: 90px; }
   .about { grid-template-columns: 1fr; gap: 36px; }
+  .education { grid-template-columns: 1fr; gap: 24px; }
   .about-profile { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
   .portrait { margin-top: 0; }
   .experience-row { grid-template-columns: 1fr 1.6fr; gap: 30px; }
@@ -214,6 +221,8 @@ details[open] .details-plus { transform: rotate(45deg); }
   .section-heading h2 { font-size: 2.125rem; }
   .section-intro { font-size: 1rem; }
   .about { gap: 28px; }
+  .education { padding-top: 28px; }
+  .education-list { grid-template-columns: 1fr; gap: 24px; }
   .about-profile { display: block; }
   .portrait { margin-top: 28px; }
   .about-content .large-copy { font-size: 1.25rem; }

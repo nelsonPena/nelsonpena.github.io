@@ -61,7 +61,7 @@ References: [Vite's GitHub Pages guide](https://vite.dev/guide/static-deploy#git
 
 ## SEO and accessibility
 
-The site includes pre-rendered English HTML, a page title and description, canonical URL, Open Graph and Twitter metadata, Person structured data, sitemap, robots file and favicon. Language changes update metadata in the browser. Social previews use text metadata. The About section includes Nelson's supplied portrait at `public/images/nelson-pena.jpg`, with accessible alt text, reserved dimensions and lazy loading. The public copy omits EXIF metadata and retains the original image pixels. No client imagery is included.
+The site includes pre-rendered English HTML, a page title and description, canonical URL, Open Graph and Twitter metadata, Person structured data, sitemap, robots file and favicon. Language changes update metadata in the browser. Social previews use text metadata. The About section displays academic education in both languages, highlighting Systems Engineering and the specialization in Mobile Application Development. It also includes Nelson's supplied portrait at `public/images/nelson-pena.jpg`, with accessible alt text, reserved dimensions and lazy loading. The public copy omits EXIF metadata and retains the original image pixels. No client imagery is included.
 
 Semantic landmarks, a skip link, visible keyboard focus, accessible language buttons, an Escape-closeable mobile menu, native expandable work contributions and reduced-motion styles are included. Contact uses a direct email link; there is no backend, form submission, tracking or analytics.
 
